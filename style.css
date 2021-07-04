@@ -39,3 +39,22 @@ h1{
     background-repeat: no-repeat;
     background-position: right;
 }
+.ex-item{
+    box-shadow: 10px 10px 15px black;
+    margin-left: 5%;
+    margin-right:5%;
+    padding:25px;
+    width: 70%;
+    border-left: 5px groove yellow;
+}
+.ex-item p{
+    text-align:justify;
+}
+.experiences{
+    background-image:url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.experiences h2{
+    font-size: 50px;;
+}
