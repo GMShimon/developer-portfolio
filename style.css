@@ -4,3 +4,25 @@ body{
 h1{
     font-size: 50px;
 }
+.span-color{
+    color:orange;
+}
+section{
+    display:flex;
+}
+.half-width{
+    width:50%;
+    padding-left: 15%;
+}
+.half-width img{
+    width:80%;
+   height: 90%;
+}
+.about-me{
+    text-decoration: none;
+    background-image: linear-gradient(orange,brown);
+    color: black;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
