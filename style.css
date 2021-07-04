@@ -45,7 +45,7 @@ h1{
     margin-right:5%;
     padding:25px;
     width: 70%;
-    border-left: 5px groove yellow;
+    border-radius: 10px;
 }
 .ex-item p{
     text-align:justify;
@@ -54,7 +54,31 @@ h1{
     background-image:url(images/exp-bg.png);
     background-repeat: no-repeat;
     background-position: left;
+    background-size: 100px;
 }
 .experiences h2{
     font-size: 50px;;
+}
+#projects{
+    border-left: 7px solid ;
+    border-image: linear-gradient(blue,cyan);
+    border-image-slice: 1;
+    border-radius: 10px;
+}
+#times{
+    border-left: 7px solid ;
+    border-image: linear-gradient(yellow,red);
+    border-image-slice: 1;
+    border-radius: 10px;
+}
+.flexible-footer{
+    display:flex;
+    padding-left: 15px;
+}
+.footer-img{
+    width: 100px;
+}
+
+#footer{
+    text-align:center;
 }
